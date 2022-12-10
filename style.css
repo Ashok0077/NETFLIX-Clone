@@ -223,3 +223,12 @@ ul li{
     height: 180px;
     border-radius: 5px;
 }
+
+.togglebtn{
+    display: ;
+    font-size: 30px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: #0094da;
+}
