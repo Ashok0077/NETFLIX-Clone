@@ -232,3 +232,11 @@ ul li{
     outline: none;
     color: #0094da;
 }
+
+/* Media Queries */
+@media only screen and(max-width:1150px)
+{
+    .banner h1{
+        font-size: 3.8rem;
+    }
+}
