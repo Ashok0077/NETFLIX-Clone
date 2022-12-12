@@ -41,6 +41,7 @@ html{
 
 .logo img{
     width: 140px;
+    height: 60px;
 }
 
 .navbar{
@@ -52,6 +53,7 @@ ul li{
     list-style: none;
     font-size: 1rem;
     margin-right: 40px;
+    cursor: pointer;
 }
 
 .logo{
@@ -84,6 +86,15 @@ ul li{
     font-size: 1rem;
 }
 
+.right-nav #avatar{
+    display: inline-block;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    background-image: url("images/download.jpg");
+    background-size: cover;
+}
+
 .banner{
     height: auto;
     display: flex;
@@ -114,7 +125,7 @@ ul li{
 }
 
 .banner .banner-code{
-    font-size: 15rem;
+    font-size: 13rem;
     font-weight: 900;
 }
 
@@ -208,8 +219,8 @@ ul li{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 300px;
-    height: 100px;
+    width: 280px;
+    height: 70px;
     border-radius: 5px;
     box-sizing: border-box;
     margin: 0 7px;
@@ -226,7 +237,7 @@ ul li{
 
 .togglebtn{
     display: ;
-    font-size: 30px;
+    font-size: 25px;
     background-color: transparent;
     border: none;
     outline: none;
@@ -237,7 +248,7 @@ ul li{
 @media only screen and (max-width:1150px)
 {
     .banner h1{
-        font-size: 3.8rem;
+        font-size: 3.2rem;
     }
 
     .navbar{
