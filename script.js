@@ -19,13 +19,15 @@ function carousel(){
     let list2
 
     const speed = 1
-    const width = list.offsetwidth
+
+
+    const width = list.offsetWidth
     let x = 0
     let x2 = width
 
     function clone()
     {
-        list2=list.cloneNode(true)
+        list2 = list.cloneNode(true)
         carouselSlider.appendChild(list2)
         list2.style.left = '$(width)px'
     }
@@ -34,7 +36,7 @@ function carousel(){
         x -= speed
 
         if(width >= Math.abs(x)){
-            list.style.left = '{x}px'
+            list.style.left = '${x}px'
         }else{
             x = width
         }
@@ -43,8 +45,8 @@ function carousel(){
     function moveSecond(){
         x2 -= speed
 
-        if(width >= Math.abs(x2)){
-            list.style.left = '{x2}px'
+        if(list.offsetWidth >= Math.abs(x2)){
+            list2.style.left = '${x2}px'
         }else{
             x2 = width
         }
